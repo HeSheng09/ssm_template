@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script>
+        function f() {
+            $.ajax({
+                url: "/user/selectById?id=1",
+                success: function (res) {
+                    console.log(res);
+                    document.getElementById("result").innerHTML = res;
+                },
+                fail:function () {
+                    console.log('fail')
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+<div>
+    <p>ssm thymeleaf</p>
+</div>
+<div>
+    <button onclick="f()">selectById</button>
+    <p id="result"></p>
+</div>
+</body>
+</html>
