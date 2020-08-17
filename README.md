@@ -5,7 +5,7 @@ template for **IntelliJ IDEA**
 #### clone
 1. 新建目录xxx，在当前路径下打开cmd。
 2. 初始化本地仓库： `git init`。
-3. 添加远程仓库：`git remote add origin https://github.com/HeSheng09/xiaoyuanbaling.git`。
+3. 添加远程仓库：`git remote add origin https://github.com/HeSheng09/ssm_thymeleaf.git`。
 4. pull仓库到本地：`git pull origin master`。
 #### 测试数据：
 1. 创建MySQL数据库：ssm_thymeleaf（同后续**jdbc.properties**配置中数据库相同即可）
